@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.title("Rock Paper Scissors Game")
+st.title("Rock-Paper-Scissor Game")
 null = "❌"
 rock = "🪨"
 paper = "📄"
