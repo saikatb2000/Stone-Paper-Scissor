@@ -8,7 +8,7 @@ paper = "📄"
 scissor = "✂️"
 game_images = [null, rock, paper, scissor]
 
-user_choice = st.number_input("Enter a choice (rock = 1, paper = 2, scissors = 3):", min_value=0, max_value=3, step=1, format="%d")
+user_choice = st.number_input("Enter a choice (nothing = 0, rock = 1, paper = 2, scissors = 3):", min_value=0, max_value=3, step=1, format="%d")
 
 st.write("You chose:")
 st.write(game_images[user_choice])
